@@ -2,6 +2,19 @@
 
 本仓库保存候选单元建模文件、扫参计划、结果分析脚本和研究方案。文件保存在 Git 仓库内，可通过 GitHub 下载；无需依赖 Codex 工作区的 artifact 下载功能。
 
+## 博士论文开题报告
+
+题目：**幅相可编程超表面辅助连续定位与抗干扰通信关键理论与方法研究**。
+
+四个研究点：真实幅相可达域与任务驱动单元设计；连续定位可辨识性与受限测量编码；抗干扰可控边界与鲁棒编码；信息驱动的低开销动态通感联合决策。
+
+- [在线阅读开题报告](docs/phd_proposal/proposal_zh.md)
+- [下载 Word](docs/phd_proposal/PhD_Proposal_Amplitude_Phase_ISAC_zh.docx)
+- [在线查看 / 下载 PDF](docs/phd_proposal/PhD_Proposal_Amplitude_Phase_ISAC_zh.pdf)
+- [查看研究路线图](docs/phd_proposal/research_roadmap.png)
+
+开题报告为讨论稿，尚未套用学校模板或完成系统查新。所列创新与性能目标均为拟验证内容；不存在已完成的 CST 或硬件实验结果。
+
 ## 下载文件
 
 - **[完整 CST 候选单元建模包 ZIP](downloads/CST_8GHz_v01.zip)**：在 GitHub 文件页面右上角选择 **Download raw file / 下载原始文件**。
