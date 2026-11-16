@@ -3,11 +3,18 @@
   "target_frequency_GHz": 8,
   "current_target": "unit then 4x4; 8x8 geometry reserved",
   "CAD_geometry_validated": true,
-  "local_R_and_C_History_recordings_received": false,
+  "local_R_and_C_History_recordings_received": true,
   "load_expansion_text_tests_passed": true,
   "CST_load_API_executed": false,
   "CST_solver_executed": false,
   "real_device_models_validated": false,
   "complete_bias_PCB_routed": false,
-  "manufacturing_ready": false
+  "manufacturing_ready": false,
+  "user_screenshot_contains_R_amp_and_C_phase": true,
+  "generated_load_macro_counts": [
+    2,
+    32,
+    128
+  ],
+  "CST_load_API_executed_note": "No cloud CST execution. User supplied local creation History/screenshots; electrical contact and solver results unverified."
 }

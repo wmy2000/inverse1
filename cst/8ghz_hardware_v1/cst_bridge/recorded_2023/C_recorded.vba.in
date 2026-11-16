@@ -1,0 +1,25 @@
+' User-recorded CST Studio Suite 2023 History; chat escapes removed.
+With LumpedElement
+    .Reset
+    .SetName "{{NAME}}"
+    .Folder "Folder1"
+    .SetType "RLCSerial"
+    .SetR "0"
+    .SetL "0"
+    .SetC "{{C_F}}"
+    .SetGs "0"
+    .SetI0 "1e-14"
+    .SetT "300"
+    .SetMonitor "True"
+    .SetRadius "0.0"
+    .CircuitFileName ""
+    .CircuitId "1"
+    .UseCopyOnly "True"
+    .UseRelativePath "False"
+    .SetP1 "False", "{{X1}}", "{{Y1}}", "{{Z1}}"
+    .SetP2 "False", "{{X2}}", "{{Y2}}", "{{Z2}}"
+    .SetInvert "False"
+    .Wire ""
+    .Position "end1"
+    .Create
+End With

@@ -4,6 +4,8 @@
 
 用户已确认使用 **CST Studio Suite 2023**。当前优先推进[第一研究点实施基线](stage1_design_zh.md)：单元→真实器件→完整偏置→4×4；8×8暂不作为首块样机目标。[负载桥接工具](cst_bridge/README_zh.md)可将本机录制的R/C命令展开到各单元，不猜测未执行的CST接口。
 
+已收到用户本机R_amp/C_phase的真实History与截图，现已生成[基于实录API的负载宏](cst_bridge/generated_2023)。当前工程已有这两个器件时，不要重复运行附加宏。请先阅读[结构物理解释、文献依据与缺失组件](structure_basis_and_gaps_zh.md)；本文中的几何manifest描述的是裸几何交付，不是用户当前CST工程的状态。
+
 初次操作请先看：[CST 2023：导入单元、建立两个负载并获取History](CST2023_first_two_loads_zh.md)，附加载位置放大图。
 
 ## 1. 现在具体做出了什么

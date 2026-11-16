@@ -9,13 +9,15 @@
 - [结构与CST导入说明](cst/8ghz_hardware_v1/README_zh.md)
 - [CST 2023：第一研究点实施基线与四节点偏置架构](cst/8ghz_hardware_v1/stage1_design_zh.md)
 - [本机R/C负载History桥接工具](cst/8ghz_hardware_v1/cst_bridge/README_zh.md)
+- [导入结构是什么、文章依据及缺少哪些组件](cst/8ghz_hardware_v1/structure_basis_and_gaps_zh.md)
+- [依据用户CST 2023实录生成的负载/建模宏](cst/8ghz_hardware_v1/cst_bridge/generated_2023)
 - [完整实体几何包 ZIP](downloads/CST_8GHz_geometry_v1.zip)
 - [单元 STEP](cst/8ghz_hardware_v1/models/unit/unit.step)
 - [4×4 阵列 STEP](cst/8ghz_hardware_v1/models/array_4x4/array_4x4.step)
 - [8×8 阵列 STEP](cst/8ghz_hardware_v1/models/array_8x8/array_8x8.step)
 - [几何检查记录](cst/8ghz_hardware_v1/geometry_validation.json)
 
-**当前为 RF 几何样机：实体/间隙/器件坐标检查已完成，尚无完整偏置PCB、CST加载/求解或电磁性能结论，不能直接加工。**
+**当前为 RF 几何样机：实体/间隙/器件坐标检查已完成；用户本机已创建两个R/C对象并提供History，尚未获得该单元的电流、求解收敛与电磁性能证据，也没有完整偏置PCB，不能直接加工。**
 
 ## 无人机移动场景参考材料审查
 
