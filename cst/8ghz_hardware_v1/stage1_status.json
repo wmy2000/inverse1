@@ -1,0 +1,13 @@
+{
+  "target_CST_version": "2023",
+  "target_frequency_GHz": 8,
+  "current_target": "unit then 4x4; 8x8 geometry reserved",
+  "CAD_geometry_validated": true,
+  "local_R_and_C_History_recordings_received": false,
+  "load_expansion_text_tests_passed": true,
+  "CST_load_API_executed": false,
+  "CST_solver_executed": false,
+  "real_device_models_validated": false,
+  "complete_bias_PCB_routed": false,
+  "manufacturing_ready": false
+}

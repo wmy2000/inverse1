@@ -7,6 +7,8 @@
 本轮优先落地单元、4×4与8×8阵列结构。已生成 STEP 三维实体、DXF 分层图、CST 几何宏、器件端点与测试状态表；修正了旧版未明确填充的铜高层间隙。
 
 - [结构与CST导入说明](cst/8ghz_hardware_v1/README_zh.md)
+- [CST 2023：第一研究点实施基线与四节点偏置架构](cst/8ghz_hardware_v1/stage1_design_zh.md)
+- [本机R/C负载History桥接工具](cst/8ghz_hardware_v1/cst_bridge/README_zh.md)
 - [完整实体几何包 ZIP](downloads/CST_8GHz_geometry_v1.zip)
 - [单元 STEP](cst/8ghz_hardware_v1/models/unit/unit.step)
 - [4×4 阵列 STEP](cst/8ghz_hardware_v1/models/array_4x4/array_4x4.step)
