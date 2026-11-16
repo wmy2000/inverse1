@@ -1,0 +1,5 @@
+pattern,cell,row,col,R_ohm,C_pF
+uniform,r00_c00,0,0,50,0.4
+R_checker,r00_c00,0,0,20,0.4
+C_ramp_NOT_phase_ramp,r00_c00,0,0,50,0.12
+random_seed20261116,r00_c00,0,0,20,0.32

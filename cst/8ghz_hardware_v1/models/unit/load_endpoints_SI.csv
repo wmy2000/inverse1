@@ -1,0 +1,3 @@
+cell,row,col,load,kind,P1x_mm,P1y_mm,P1z_mm,P2x_mm,P2y_mm,P2z_mm,ideal_value_SI,ideal_unit,package_L_H_example,package_R_ohm_example,configuration
+r00_c00,0,0,r00_c00_amplitude,R_series,-0.2,2.5,1.5175,0.2,2.5,1.5175,50.0,ohm,4e-10,0,NOT_ATTACHED_TO_CST
+r00_c00,0,0,r00_c00_phase,C_series,-0.2,0.0,2.3525,0.2,0.0,2.3525,4e-13,F,4e-10,1.5,NOT_ATTACHED_TO_CST

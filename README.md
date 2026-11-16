@@ -2,6 +2,23 @@
 
 本仓库保存候选单元建模文件、扫参计划、结果分析脚本和研究方案。文件保存在 Git 仓库内，可通过 GitHub 下载；无需依赖 Codex 工作区的 artifact 下载功能。
 
+## 单元与有限阵列实体几何 v1
+
+本轮优先落地单元、4×4与8×8阵列结构。已生成 STEP 三维实体、DXF 分层图、CST 几何宏、器件端点与测试状态表；修正了旧版未明确填充的铜高层间隙。
+
+- [结构与CST导入说明](cst/8ghz_hardware_v1/README_zh.md)
+- [完整实体几何包 ZIP](downloads/CST_8GHz_geometry_v1.zip)
+- [单元 STEP](cst/8ghz_hardware_v1/models/unit/unit.step)
+- [4×4 阵列 STEP](cst/8ghz_hardware_v1/models/array_4x4/array_4x4.step)
+- [8×8 阵列 STEP](cst/8ghz_hardware_v1/models/array_8x8/array_8x8.step)
+- [几何检查记录](cst/8ghz_hardware_v1/geometry_validation.json)
+
+**当前为 RF 几何样机：实体/间隙/器件坐标检查已完成，尚无完整偏置PCB、CST加载/求解或电磁性能结论，不能直接加工。**
+
+## 无人机移动场景参考材料审查
+
+[查看所上传FMCW代码与方向图数据的适用性审查](docs/uav_motion/reference_code_assessment_zh.md)。原论文做过移动无人机实验；所上传压缩包仅含合成回波MATLAB脚本和方向性CSV，没有无人机原始IQ。原附件未上传到本仓库。
+
 ## 博士论文开题报告
 
 题目：**幅相可编程超表面辅助连续定位与抗干扰通信关键理论与方法研究**。

@@ -1,0 +1,41 @@
+[
+  {
+    "model": "unit",
+    "solids": 8,
+    "loads": 2,
+    "STEP_round_trip_valid": true,
+    "all_solids_valid": true,
+    "no_positive_volume_overlap": true,
+    "intersection_candidates_checked": 2,
+    "volume_matches_independent_formula": true,
+    "load_endpoints_on_distinct_copper_faces": true,
+    "DXF_audit_errors": 0,
+    "EM_validation": false
+  },
+  {
+    "model": "array_4x4",
+    "solids": 68,
+    "loads": 32,
+    "STEP_round_trip_valid": true,
+    "all_solids_valid": true,
+    "no_positive_volume_overlap": true,
+    "intersection_candidates_checked": 32,
+    "volume_matches_independent_formula": true,
+    "load_endpoints_on_distinct_copper_faces": true,
+    "DXF_audit_errors": 0,
+    "EM_validation": false
+  },
+  {
+    "model": "array_8x8",
+    "solids": 260,
+    "loads": 128,
+    "STEP_round_trip_valid": true,
+    "all_solids_valid": true,
+    "no_positive_volume_overlap": true,
+    "intersection_candidates_checked": 128,
+    "volume_matches_independent_formula": true,
+    "load_endpoints_on_distinct_copper_faces": true,
+    "DXF_audit_errors": 0,
+    "EM_validation": false
+  }
+]

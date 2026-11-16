@@ -1,0 +1,20 @@
+{
+  "period_mm": 12.0,
+  "h_base_mm": 1.5,
+  "h_spacer_mm": 0.8,
+  "copper_mm": 0.035,
+  "length_phase_mm": 9.0,
+  "length_amplitude_mm": 10.5,
+  "width_phase_mm": 1.2,
+  "width_amplitude_mm": 1.2,
+  "gap_mm": 0.4,
+  "offset_y_mm": 2.5,
+  "cavity_x_mm": 2.4,
+  "cavity_y_mm": 2.8,
+  "board_margin_mm": 3.0,
+  "epsilon_r": 3.55,
+  "tan_delta": 0.0027,
+  "target_GHz": 8.0,
+  "fmin_GHz": 6.0,
+  "fmax_GHz": 10.0
+}

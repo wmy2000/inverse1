@@ -1,0 +1,3398 @@
+{
+  "name": "array_8x8",
+  "array_n": 8,
+  "cells": 64,
+  "independent_ideal_loads": 128,
+  "active_aperture_mm": 96.0,
+  "board_side_mm": 102.0,
+  "thickness_mm": 2.405,
+  "rf_bias_circuit_included": false,
+  "material_vendor_validated": false,
+  "packages_modeled": false,
+  "CST_macro_executed": false,
+  "CST_loads_attached": false,
+  "EM_solved": false,
+  "manufacturing_ready": false,
+  "parts": [
+    {
+      "name": "ground",
+      "material": "copper",
+      "volume_mm3": 364.14000000000004,
+      "bbox_mm": [
+        -51.0,
+        51.0,
+        -51.0,
+        51.0,
+        -0.035,
+        0.0
+      ]
+    },
+    {
+      "name": "substrate_base",
+      "material": "substrate",
+      "volume_mm3": 15605.999999999998,
+      "bbox_mm": [
+        -51.0,
+        51.0,
+        -51.0,
+        51.0,
+        0.0,
+        1.5
+      ]
+    },
+    {
+      "name": "interlayer_fill",
+      "material": "fill",
+      "volume_mm3": 327.3143999999997,
+      "bbox_mm": [
+        -51.0,
+        51.0,
+        -51.0,
+        51.0,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "substrate_spacer_with_windows",
+      "material": "substrate",
+      "volume_mm3": 7979.135999999971,
+      "bbox_mm": [
+        -51.0,
+        51.0,
+        -51.0,
+        51.0,
+        1.535,
+        2.335
+      ]
+    },
+    {
+      "name": "r00_c00_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -47.25,
+        -42.2,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c00_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -41.8,
+        -36.75,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c00_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.180600000000001,
+      "bbox_mm": [
+        -46.5,
+        -42.2,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c00_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.180600000000001,
+      "bbox_mm": [
+        -41.8,
+        -37.5,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c01_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -35.25,
+        -30.2,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c01_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -29.8,
+        -24.75,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c01_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -34.5,
+        -30.2,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c01_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -29.8,
+        -25.5,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c02_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -23.25,
+        -18.2,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c02_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -17.8,
+        -12.75,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c02_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -22.5,
+        -18.2,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c02_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -17.8,
+        -13.5,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c03_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        -11.25,
+        -6.2,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c03_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999998,
+      "bbox_mm": [
+        -5.8,
+        -0.75,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c03_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -10.5,
+        -6.2,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c03_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -5.8,
+        -1.5,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c04_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999998,
+      "bbox_mm": [
+        0.75,
+        5.8,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c04_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        6.2,
+        11.25,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c04_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        1.5,
+        5.8,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c04_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        6.2,
+        10.5,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c05_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        12.75,
+        17.8,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c05_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        18.2,
+        23.25,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c05_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        13.5,
+        17.8,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c05_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        18.2,
+        22.5,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c06_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        24.75,
+        29.8,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c06_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        30.2,
+        35.25,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c06_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        25.5,
+        29.8,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c06_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        30.2,
+        34.5,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c07_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        36.75,
+        41.8,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c07_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        42.2,
+        47.25,
+        -40.1,
+        -38.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r00_c07_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.180600000000001,
+      "bbox_mm": [
+        37.5,
+        41.8,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r00_c07_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.180600000000001,
+      "bbox_mm": [
+        42.2,
+        46.5,
+        -42.6,
+        -41.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c00_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -47.25,
+        -42.2,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c00_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -41.8,
+        -36.75,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c00_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        -46.5,
+        -42.2,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c00_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        -41.8,
+        -37.5,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c01_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -35.25,
+        -30.2,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c01_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -29.8,
+        -24.75,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c01_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -34.5,
+        -30.2,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c01_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -29.8,
+        -25.5,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c02_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -23.25,
+        -18.2,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c02_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -17.8,
+        -12.75,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c02_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -22.5,
+        -18.2,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c02_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -17.8,
+        -13.5,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c03_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        -11.25,
+        -6.2,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c03_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        -5.8,
+        -0.75,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c03_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -10.5,
+        -6.2,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c03_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -5.8,
+        -1.5,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c04_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        0.75,
+        5.8,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c04_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        6.2,
+        11.25,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c04_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        1.5,
+        5.8,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c04_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        6.2,
+        10.5,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c05_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        12.75,
+        17.8,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c05_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        18.2,
+        23.25,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c05_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        13.5,
+        17.8,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c05_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        18.2,
+        22.5,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c06_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        24.75,
+        29.8,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c06_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        30.2,
+        35.25,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c06_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        25.5,
+        29.8,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c06_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        30.2,
+        34.5,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c07_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        36.75,
+        41.8,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c07_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        42.2,
+        47.25,
+        -28.1,
+        -26.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r01_c07_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        37.5,
+        41.8,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r01_c07_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        42.2,
+        46.5,
+        -30.6,
+        -29.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c00_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999954,
+      "bbox_mm": [
+        -47.25,
+        -42.2,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c00_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999954,
+      "bbox_mm": [
+        -41.8,
+        -36.75,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c00_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        -46.5,
+        -42.2,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c00_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        -41.8,
+        -37.5,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c01_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        -35.25,
+        -30.2,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c01_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        -29.8,
+        -24.75,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c01_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -34.5,
+        -30.2,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c01_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -29.8,
+        -25.5,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c02_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999973,
+      "bbox_mm": [
+        -23.25,
+        -18.2,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c02_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        -17.8,
+        -12.75,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c02_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -22.5,
+        -18.2,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c02_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -17.8,
+        -13.5,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c03_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        -11.25,
+        -6.2,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c03_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        -5.8,
+        -0.75,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c03_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -10.5,
+        -6.2,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c03_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -5.8,
+        -1.5,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c04_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        0.75,
+        5.8,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c04_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        6.2,
+        11.25,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c04_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        1.5,
+        5.8,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c04_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        6.2,
+        10.5,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c05_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        12.75,
+        17.8,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c05_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        18.2,
+        23.25,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c05_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        13.5,
+        17.8,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c05_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        18.2,
+        22.5,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c06_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999973,
+      "bbox_mm": [
+        24.75,
+        29.8,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c06_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999997,
+      "bbox_mm": [
+        30.2,
+        35.25,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c06_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        25.5,
+        29.8,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c06_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        30.2,
+        34.5,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c07_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999954,
+      "bbox_mm": [
+        36.75,
+        41.8,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c07_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999957,
+      "bbox_mm": [
+        42.2,
+        47.25,
+        -16.1,
+        -14.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r02_c07_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        37.5,
+        41.8,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r02_c07_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        42.2,
+        46.5,
+        -18.6,
+        -17.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c00_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999934,
+      "bbox_mm": [
+        -47.25,
+        -42.2,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c00_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999934,
+      "bbox_mm": [
+        -41.8,
+        -36.75,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c00_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.1806000000000005,
+      "bbox_mm": [
+        -46.5,
+        -42.2,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c00_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.1806000000000005,
+      "bbox_mm": [
+        -41.8,
+        -37.5,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c01_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999995,
+      "bbox_mm": [
+        -35.25,
+        -30.2,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c01_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999995,
+      "bbox_mm": [
+        -29.8,
+        -24.75,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c01_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        -34.5,
+        -30.2,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c01_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        -29.8,
+        -25.5,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c02_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999995,
+      "bbox_mm": [
+        -23.25,
+        -18.2,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c02_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999995,
+      "bbox_mm": [
+        -17.8,
+        -12.75,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c02_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        -22.5,
+        -18.2,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c02_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        -17.8,
+        -13.5,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c03_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999946,
+      "bbox_mm": [
+        -11.25,
+        -6.2,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c03_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999946,
+      "bbox_mm": [
+        -5.8,
+        -0.75,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c03_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000062,
+      "bbox_mm": [
+        -10.5,
+        -6.2,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c03_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000062,
+      "bbox_mm": [
+        -5.8,
+        -1.5,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c04_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999946,
+      "bbox_mm": [
+        0.75,
+        5.8,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c04_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999946,
+      "bbox_mm": [
+        6.2,
+        11.25,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c04_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000062,
+      "bbox_mm": [
+        1.5,
+        5.8,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c04_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000062,
+      "bbox_mm": [
+        6.2,
+        10.5,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c05_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999995,
+      "bbox_mm": [
+        12.75,
+        17.8,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c05_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999995,
+      "bbox_mm": [
+        18.2,
+        23.25,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c05_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        13.5,
+        17.8,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c05_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        18.2,
+        22.5,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c06_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999995,
+      "bbox_mm": [
+        24.75,
+        29.8,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c06_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999995,
+      "bbox_mm": [
+        30.2,
+        35.25,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c06_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        25.5,
+        29.8,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c06_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        30.2,
+        34.5,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c07_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999934,
+      "bbox_mm": [
+        36.75,
+        41.8,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c07_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999934,
+      "bbox_mm": [
+        42.2,
+        47.25,
+        -4.1,
+        -2.9,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r03_c07_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.1806000000000005,
+      "bbox_mm": [
+        37.5,
+        41.8,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r03_c07_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.1806000000000005,
+      "bbox_mm": [
+        42.2,
+        46.5,
+        -6.6,
+        -5.4,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c00_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999923,
+      "bbox_mm": [
+        -47.25,
+        -42.2,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c00_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999923,
+      "bbox_mm": [
+        -41.8,
+        -36.75,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c00_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.1806000000000005,
+      "bbox_mm": [
+        -46.5,
+        -42.2,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c00_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.1806000000000005,
+      "bbox_mm": [
+        -41.8,
+        -37.5,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c01_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999937,
+      "bbox_mm": [
+        -35.25,
+        -30.2,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c01_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999994,
+      "bbox_mm": [
+        -29.8,
+        -24.75,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c01_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        -34.5,
+        -30.2,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c01_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        -29.8,
+        -25.5,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c02_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999994,
+      "bbox_mm": [
+        -23.25,
+        -18.2,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c02_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999994,
+      "bbox_mm": [
+        -17.8,
+        -12.75,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c02_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        -22.5,
+        -18.2,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c02_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        -17.8,
+        -13.5,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c03_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999937,
+      "bbox_mm": [
+        -11.25,
+        -6.2,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c03_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999937,
+      "bbox_mm": [
+        -5.8,
+        -0.75,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c03_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000062,
+      "bbox_mm": [
+        -10.5,
+        -6.2,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c03_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000062,
+      "bbox_mm": [
+        -5.8,
+        -1.5,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c04_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999937,
+      "bbox_mm": [
+        0.75,
+        5.8,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c04_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999937,
+      "bbox_mm": [
+        6.2,
+        11.25,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c04_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000062,
+      "bbox_mm": [
+        1.5,
+        5.8,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c04_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000062,
+      "bbox_mm": [
+        6.2,
+        10.5,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c05_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999994,
+      "bbox_mm": [
+        12.75,
+        17.8,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c05_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999994,
+      "bbox_mm": [
+        18.2,
+        23.25,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c05_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        13.5,
+        17.8,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c05_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        18.2,
+        22.5,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c06_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2120999999999994,
+      "bbox_mm": [
+        24.75,
+        29.8,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c06_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999937,
+      "bbox_mm": [
+        30.2,
+        35.25,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c06_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        25.5,
+        29.8,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c06_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000065,
+      "bbox_mm": [
+        30.2,
+        34.5,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c07_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999923,
+      "bbox_mm": [
+        36.75,
+        41.8,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c07_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999923,
+      "bbox_mm": [
+        42.2,
+        47.25,
+        7.9,
+        9.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r04_c07_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.1806000000000005,
+      "bbox_mm": [
+        37.5,
+        41.8,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r04_c07_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.1806000000000005,
+      "bbox_mm": [
+        42.2,
+        46.5,
+        5.4,
+        6.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c00_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -47.25,
+        -42.2,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c00_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -41.8,
+        -36.75,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c00_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        -46.5,
+        -42.2,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c00_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        -41.8,
+        -37.5,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c01_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -35.25,
+        -30.2,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c01_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -29.8,
+        -24.75,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c01_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -34.5,
+        -30.2,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c01_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -29.8,
+        -25.5,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c02_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -23.25,
+        -18.2,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c02_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -17.8,
+        -12.75,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c02_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -22.5,
+        -18.2,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c02_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -17.8,
+        -13.5,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c03_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        -11.25,
+        -6.2,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c03_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999998,
+      "bbox_mm": [
+        -5.8,
+        -0.75,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c03_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -10.5,
+        -6.2,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c03_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -5.8,
+        -1.5,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c04_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999998,
+      "bbox_mm": [
+        0.75,
+        5.8,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c04_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        6.2,
+        11.25,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c04_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        1.5,
+        5.8,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c04_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        6.2,
+        10.5,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c05_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        12.75,
+        17.8,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c05_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        18.2,
+        23.25,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c05_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        13.5,
+        17.8,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c05_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        18.2,
+        22.5,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c06_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        24.75,
+        29.8,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c06_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        30.2,
+        35.25,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c06_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        25.5,
+        29.8,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c06_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        30.2,
+        34.5,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c07_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        36.75,
+        41.8,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c07_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        42.2,
+        47.25,
+        19.9,
+        21.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r05_c07_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        37.5,
+        41.8,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r05_c07_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        42.2,
+        46.5,
+        17.4,
+        18.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c00_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -47.25,
+        -42.2,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c00_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -41.8,
+        -36.75,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c00_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        -46.5,
+        -42.2,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c00_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        -41.8,
+        -37.5,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c01_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -35.25,
+        -30.2,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c01_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -29.8,
+        -24.75,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c01_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -34.5,
+        -30.2,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c01_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -29.8,
+        -25.5,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c02_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -23.25,
+        -18.2,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c02_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -17.8,
+        -12.75,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c02_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -22.5,
+        -18.2,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c02_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -17.8,
+        -13.5,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c03_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        -11.25,
+        -6.2,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c03_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999998,
+      "bbox_mm": [
+        -5.8,
+        -0.75,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c03_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -10.5,
+        -6.2,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c03_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -5.8,
+        -1.5,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c04_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999998,
+      "bbox_mm": [
+        0.75,
+        5.8,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c04_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        6.2,
+        11.25,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c04_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        1.5,
+        5.8,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c04_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        6.2,
+        10.5,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c05_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        12.75,
+        17.8,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c05_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        18.2,
+        23.25,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c05_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        13.5,
+        17.8,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c05_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        18.2,
+        22.5,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c06_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        24.75,
+        29.8,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c06_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        30.2,
+        35.25,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c06_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        25.5,
+        29.8,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c06_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        30.2,
+        34.5,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c07_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        36.75,
+        41.8,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c07_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        42.2,
+        47.25,
+        31.9,
+        33.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r06_c07_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        37.5,
+        41.8,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r06_c07_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000104,
+      "bbox_mm": [
+        42.2,
+        46.5,
+        29.4,
+        30.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c00_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -47.25,
+        -42.2,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c00_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        -41.8,
+        -36.75,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c00_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.180600000000001,
+      "bbox_mm": [
+        -46.5,
+        -42.2,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c00_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.180600000000001,
+      "bbox_mm": [
+        -41.8,
+        -37.5,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c01_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -35.25,
+        -30.2,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c01_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -29.8,
+        -24.75,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c01_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -34.5,
+        -30.2,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c01_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -29.8,
+        -25.5,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c02_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000007,
+      "bbox_mm": [
+        -23.25,
+        -18.2,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c02_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        -17.8,
+        -12.75,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c02_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -22.5,
+        -18.2,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c02_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        -17.8,
+        -13.5,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c03_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        -11.25,
+        -6.2,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c03_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999998,
+      "bbox_mm": [
+        -5.8,
+        -0.75,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c03_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -10.5,
+        -6.2,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c03_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        -5.8,
+        -1.5,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c04_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999998,
+      "bbox_mm": [
+        0.75,
+        5.8,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c04_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.2121,
+      "bbox_mm": [
+        6.2,
+        11.25,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c04_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        1.5,
+        5.8,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c04_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000115,
+      "bbox_mm": [
+        6.2,
+        10.5,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c05_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        12.75,
+        17.8,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c05_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        18.2,
+        23.25,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c05_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        13.5,
+        17.8,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c05_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        18.2,
+        22.5,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c06_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000007,
+      "bbox_mm": [
+        24.75,
+        29.8,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c06_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21210000000000004,
+      "bbox_mm": [
+        30.2,
+        35.25,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c06_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        25.5,
+        29.8,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c06_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.18060000000000118,
+      "bbox_mm": [
+        30.2,
+        34.5,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c07_amplitude_left",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        36.75,
+        41.8,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c07_amplitude_right",
+      "material": "copper",
+      "volume_mm3": 0.21209999999999987,
+      "bbox_mm": [
+        42.2,
+        47.25,
+        43.9,
+        45.1,
+        1.5,
+        1.535
+      ]
+    },
+    {
+      "name": "r07_c07_phase_left",
+      "material": "copper",
+      "volume_mm3": 0.180600000000001,
+      "bbox_mm": [
+        37.5,
+        41.8,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    },
+    {
+      "name": "r07_c07_phase_right",
+      "material": "copper",
+      "volume_mm3": 0.180600000000001,
+      "bbox_mm": [
+        42.2,
+        46.5,
+        41.4,
+        42.6,
+        2.335,
+        2.37
+      ]
+    }
+  ]
+}
