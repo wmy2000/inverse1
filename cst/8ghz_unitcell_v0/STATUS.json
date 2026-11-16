@@ -1,0 +1,10 @@
+{
+  "target_GHz": 8,
+  "geometry_created_as_macro": true,
+  "cst_macro_executed": false,
+  "CST_solver_executed": false,
+  "electrical_sweep_states": 81,
+  "geometry_screen_states": 27,
+  "analysis_software_self_check": "passed using isolated mathematical fixtures; not EM validation",
+  "manufacturing_ready": false
+}

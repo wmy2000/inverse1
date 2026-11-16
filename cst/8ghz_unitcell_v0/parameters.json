@@ -1,0 +1,78 @@
+{
+  "p": {
+    "value": "12",
+    "description": "period mm"
+  },
+  "h1": {
+    "value": "1.5",
+    "description": "lower dielectric mm"
+  },
+  "h2": {
+    "value": "0.8",
+    "description": "interlayer dielectric mm"
+  },
+  "tcu": {
+    "value": "0.035",
+    "description": "copper thickness mm"
+  },
+  "Lphase": {
+    "value": "9.0",
+    "description": "top phase resonator length mm"
+  },
+  "Lamp": {
+    "value": "10.5",
+    "description": "lower dissipative resonator length mm"
+  },
+  "wphase": {
+    "value": "1.2",
+    "description": "top strip width mm"
+  },
+  "wamp": {
+    "value": "1.2",
+    "description": "lower strip width mm"
+  },
+  "gap": {
+    "value": "0.4",
+    "description": "loading gap mm"
+  },
+  "dy": {
+    "value": "2.5",
+    "description": "lower resonator transverse offset mm"
+  },
+  "epsr": {
+    "value": "3.55",
+    "description": "generic substrate relative permittivity"
+  },
+  "tand": {
+    "value": "0.0027",
+    "description": "generic substrate loss tangent"
+  },
+  "Rload": {
+    "value": "50",
+    "description": "PIN equivalent R ohm"
+  },
+  "Cload": {
+    "value": "0.4",
+    "description": "varactor equivalent C pF"
+  },
+  "Lpin": {
+    "value": "0.4",
+    "description": "PIN package L nH"
+  },
+  "Lvar": {
+    "value": "0.4",
+    "description": "varactor package L nH"
+  },
+  "Rvar": {
+    "value": "1.5",
+    "description": "varactor series R ohm"
+  },
+  "fmin": {
+    "value": "6",
+    "description": "frequency GHz"
+  },
+  "fmax": {
+    "value": "10",
+    "description": "frequency GHz"
+  }
+}
